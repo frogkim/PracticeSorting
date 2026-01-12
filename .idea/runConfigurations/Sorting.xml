@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Sorting" type="Application" factoryName="Application" activateToolWindowBeforeRun="false">
+    <option name="ALTERNATIVE_JRE_PATH" value="$USER_HOME$/.jdks/openjdk-25.0.1" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="MainClass" />
+    <module name="PracticeSorting" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
