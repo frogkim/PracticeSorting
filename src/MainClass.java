@@ -20,6 +20,32 @@ public class MainClass {
     static public void YourFunc(int[] unsorted, int[] sorted, int nSampleSize) {
         // Make your logic in here
 
+        int[] bubbleSort = unsorted.clone();
+        bubbleSort(bubbleSort);
+        System.out.println("Check Bubble Sort");
+        Compare(bubbleSort, sorted, nSampleSize);
+
+    }
+
+    static public void bubbleSort(int[] unsorted) {
+        // 코드
+
+
+    }
+
+    static public void Compare(int[] unsorted, int[] sorted, int nSampleSize) {
+        boolean flag = true;
+        for(int i = 0; i < nSampleSize; i++){
+            if(unsorted[i] != sorted[i]){
+                System.out.printf("Failed at %d\n", i);
+                flag = false;
+            }
+        }
+        if(flag){
+            System.out.println("Your array is sorted");
+        } else {
+            System.out.println("Your array is not sorted");
+        }
     }
 
 
